@@ -1,7 +1,7 @@
 # TP2-HTML-Integration-Maquette-Simple
 
-**1.**Initialisation au language HTML.<br>
-**2.**Intégration du CSS.<br>
+**1.** Initialisation au language HTML.<br>
+**2.** Intégration du CSS.<br>
 
 ***Version*** : HTML 5<br>
 ***Version*** : CSS 3<br>
