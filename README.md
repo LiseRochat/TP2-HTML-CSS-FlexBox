@@ -1,4 +1,4 @@
-# TP2-HTML-Integration-Maquette-Simple
+# TP2-HTML-CSS-Integration-Maquette-Simple
 
 **1.** Initialisation au language HTML.<br>
 **2.** Intégration du CSS.<br>
