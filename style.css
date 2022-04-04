@@ -8,8 +8,8 @@
 :root {
     --colorTxt : #ffffff;
     --colorBg: #252525;
-    --colorBtn : #9a009a;
-    --colorBtnHover: pink;
+    --colorTitleSecondary: #3131ff;
+    --colorFooter: #000000;
 }
 /* Mini reset */
 * {
@@ -18,8 +18,123 @@
     box-sizing: 0;
 }
 
+/* Body */
 body {
     font-family: font1;
     background-color: var(--colorBg);
-    color: var(--colorTxt)
+    color: var(--colorTxt);
+    margin: 10px 0;
+    width: auto;
 }
+
+/* Display : FLEX */
+nav,
+ul,
+main,
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header : h2  */
+header {
+    margin: 20px 30px;
+}
+h2 {
+    width: 50%;
+    font-weight: bold;
+}
+
+/* Header : nav */
+ul {
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+/* main */
+main {
+    margin: 20px 30px;
+}
+
+section {
+    width: 50%;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+h3 {
+    color: var(--colorTitleSecondary);
+    font-size: 4rem;
+}
+
+img {
+    width: 50%;
+    height: 900px;
+}
+
+/* Footer */
+footer {
+    background: var(--colorFooter);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 5px;
+}
+
+.div_button-link {
+    width: 20%;
+    height: 150px;
+}
+
+.div_button-link ul {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: var(--colorTitleSecondary);
+    border: 3px solid transparent;
+    margin: 2px;
+    border-radius: 5px;
+    color: var(--colorTxt);
+    width: 150px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: transparent;
+    border: 3px solid var(--colorTitleSecondary);
+}
+
+.div_ul-li {
+    width: 80%;
+    height: 150px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.div_ul-li ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.div_ul-li ul li img {
+    width: 100%;
+    height: 40px;
+}
+
+
