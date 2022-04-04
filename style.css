@@ -1,0 +1,16 @@
+/* Importation de la police */
+@font-face {
+    font-family: font1;
+    src: url('Inter-Regular.ttf');
+}
+
+/* Mini reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: font1;
+}
