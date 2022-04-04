@@ -4,6 +4,13 @@
     src: url('Inter-Regular.ttf');
 }
 
+/* Déclaration de variables de couleurs */
+:root {
+    --colorTxt : #ffffff;
+    --colorBg: #252525;
+    --colorBtn : #9a009a;
+    --colorBtnHover: pink;
+}
 /* Mini reset */
 * {
     margin: 0;
@@ -13,4 +20,6 @@
 
 body {
     font-family: font1;
+    background-color: var(--colorBg);
+    color: var(--colorTxt)
 }
