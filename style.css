@@ -6,7 +6,7 @@
 
 /* Déclaration de variables de couleurs */
 :root {
-    --colorTxt : #ffffff;
+    --colorTxt : #fffcfc;
     --colorBg: #252525;
     --colorTitleSecondary: #3131ff;
     --colorFooter: #000000;
@@ -18,6 +18,18 @@
     box-sizing: 0;
 }
 
+ul {
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
 /* Body */
 body {
     font-family: font1, sans-serif;
@@ -25,6 +37,7 @@ body {
     color: var(--colorTxt);
     margin: 10px 0;
     width: auto;
+    min-height: 100vh;
 }
 
 /* Display : FLEX */
@@ -42,19 +55,14 @@ footer {
 header {
     margin: 20px 30px;
 }
+
 h2 {
     width: 50%;
     font-weight: bold;
 }
 
-/* Header : nav */
-ul {
-    width: 50%;
-}
 
-li {
-    list-style: none;
-}
+
 
 /* main */
 main {
