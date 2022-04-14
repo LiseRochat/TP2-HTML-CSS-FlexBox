@@ -48,7 +48,7 @@ Here is an overview of project. </br>
 
 1. Clone the project
 ```
-git clone https://github.com/LiseRochat/TP2-HTML-CSS-Flex
+git clone https://github.com/LiseRochat/TP2-HTML-CSS-FlexBox/
 ```
 2. Open file with you text editor 
 3. Run index.html in your navigator
@@ -81,7 +81,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Contact 
 Rochat Lise - liserochat@live.fr </br>
-Project Link: [https://github.com/LiseRochat/TP2-HTML-CSS-Flex](https://github.com/LiseRochat/TP2-HTML-CSS-Flex)
+Project Link: [https://github.com/LiseRochat/TP2-HTML-CSS-FlexBox/](https://github.com/LiseRochat/TP2-HTML-CSS-FlexBox/)
 <br>
 Source : [https://fromscratch.podia.com/](https://fromscratch.podia.com/view/courses/parcours-complet-mastering-front-end/)
 <br>
