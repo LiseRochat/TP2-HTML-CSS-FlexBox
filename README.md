@@ -58,9 +58,6 @@ git clone https://github.com/LiseRochat/TP2-HTML-CSS-FlexBox/
 ### Road Map
 - [x] Integration HTML
 - [x] Stylisation CSS
-- [ ] Responsive
-    - [ ] Tablet
-    - [ ] Mobile
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
